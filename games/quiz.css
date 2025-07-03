@@ -1,0 +1,37 @@
+.quiz-box {
+  background-color: #ffe4f0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+#questionText {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+#optionsContainer button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  background-color: #ff92b2;
+  color: white;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#optionsContainer button:hover {
+  background-color: #ff709b;
+}
+
+.quiz-error {
+  color: crimson;
+  font-weight: bold;
+  margin-top: 15px;
+  animation: fadeIn 0.3s ease-in-out;
+}

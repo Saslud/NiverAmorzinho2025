@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo da Memória</title>
+  <link rel="stylesheet" href="../style/style.css" />
+  <link rel="stylesheet" href="memory.css" />
+</head>
+<body class="fade-in">
+  <div class="main-container">
+    <h1>🧠 Jogo da Memória</h1>
+    <p>Encontre os pares de fotos nossas!</p>
+
+    <div id="gameBoard" class="memory-grid"></div>
+
+    <div id="victorySection" class="hidden reward-section">
+      <h2>Você conseguiu! Aqui está seu novo pet 🥰</h2>
+      <img src="../assets/images/animals/capybara.png" alt="Capivarinha fofa" width="100" />
+      <br />
+      <button class="return-button" onclick="goHome()">Voltar</button>
+
+    </div>
+  </div>
+
+  <script src="../script/shared.js"></script>
+  <script src="memory.js"></script>
+</body>
+</html>

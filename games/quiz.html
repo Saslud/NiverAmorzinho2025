@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="../style/style.css" />
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body class="fade-in">
+  <div class="main-container">
+    <h1>💌 Quiz</h1>
+    <div id="quizBox" class="quiz-box">
+      <h2 id="questionText"></h2>
+      <div id="optionsContainer"></div>
+    </div>
+
+    <div id="victorySection" class="hidden reward-section">
+      <h2>Você completou o quiz! 🥳</h2>
+      <img src="../assets/images/animals/duck.png" alt="Patinho fofo" width="100" />
+      <br />
+      <button class="return-button" onclick="goHome()">Voltar</button>
+    </div>
+  </div>
+
+  <script src="../script/shared.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>

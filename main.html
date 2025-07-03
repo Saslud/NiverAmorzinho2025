@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nosso Reino</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body class="fade-in">
+  <div class="main-container">
+    <h1>Bem-vinda, meu amor 💖</h1>
+    <p>Escolha um dos jogos para começar sua jornada:</p>
+
+    <div class="games-grid">
+      <div class="game-card" onclick="startGame('memory')">
+        🧠 Jogo da Memória
+      </div>
+      <div class="game-card" onclick="startGame('quiz')">
+        💌 Quiz
+      </div>
+      <div class="game-card" onclick="startGame('slider')">
+        🧩 Quebra-Cabeça
+      </div>
+    </div>
+
+    <div id="reward-section" class="reward-section hidden">
+      <div id="audioSection" class="hidden">
+        <h3>✨ Uma mensagem só para você:</h3>
+        <audio controls>
+          <source src="assets/audio/minha_mensagem.mp3" type="audio/mpeg" />
+          Seu navegador não suporta o áudio.
+        </audio>
+        <br />
+        <a href="assets/audio/minha_mensagem.mp3" download class="download-button">Baixar áudio</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script/shared.js"></script>
+  <script src="script/main.js"></script>
+</body>
+</html>
